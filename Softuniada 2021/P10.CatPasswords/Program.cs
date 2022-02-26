@@ -33,7 +33,7 @@ namespace P10.CatPasswords
                 combinations *= Math.Pow(30, g);
             }
 
-            Console.WriteLine(combinations);
+            Console.WriteLine(combinations % 1000000007);
         }
     }
 }
